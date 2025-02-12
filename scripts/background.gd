@@ -21,3 +21,8 @@ func _set_tint(new_tint: Color):
 
 func _ready():
 	_set_tint(tint)
+
+
+func _on_dangerzone_dangerzone_entered() -> void:
+	tint = Color(randf(), randf(), randf())
+	_set_tint(tint)

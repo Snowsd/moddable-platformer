@@ -230,3 +230,5 @@ limit_left = 0
 limit_bottom = 1080
 position_smoothing_enabled = true
 script = ExtResource("13_0d2mj")
+
+[connection signal="dangerzone_entered" from="Dangerzone" to="Background" method="_on_dangerzone_dangerzone_entered"]
